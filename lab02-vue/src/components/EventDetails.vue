@@ -1,0 +1,21 @@
+<script setup lang="ts">
+import type { Event } from '@/types'
+
+defineProps<{
+  event: Event
+}>()
+</script>
+
+<template>
+  <div class="event-details">
+    <div>{{ event.category }}</div>
+    <div>{{ event.organizer }}</div>
+  </div>
+</template>
+
+<style scoped>
+.event-details {
+  text-align: right;
+  /* หากต้องการ font size ที่ชัดเจนสามารถกำหนดเพิ่มได้ที่นี่ */
+}
+</style>
