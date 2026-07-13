@@ -4,6 +4,7 @@
       <div class="wrapper">
         <nav>
           <RouterLink to="/">Event</RouterLink> |
+          <RouterLink to="/students">Student</RouterLink> |
           <RouterLink to="/about">About</RouterLink>
         </nav>
       </div>
