@@ -5,8 +5,9 @@ import eventsData from '../events.json'
 </script>
 
 <template>
-  <div class="events">
+  <h1>Events For Good</h1>
 
+  <div class="events">
     <div v-for="event in eventsData" :key="event.id">
       <EventCard :event="event" />
       <EventDetails :event="event" />
